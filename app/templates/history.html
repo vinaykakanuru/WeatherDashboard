@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<header class="bg-info py-2 text-center">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">History</li>
+        </ol>
+    </nav>
+</header>
+{% for weather_data in weather_data_list %}
+{% include 'components/card.html' %}
+{% empty %}
+<h1>No History Found..</h1>
+{% endfor %}
+
+{% endblock %}
