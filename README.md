@@ -7,7 +7,7 @@
 • It helps you in understanding of accessing an opensource API using **_requests_** library.
 
 • You need to create an account in **_https://openweathermap.org/_** in order to access weather data.
-![OWM](readme-resources/openweathermap.png)
+![OWM](readme_resources/openweathermap.png)
 
 • You can find the API key from **My API Keys** check the image above for reference.
 
